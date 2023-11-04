@@ -24,9 +24,9 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between md:w-4/5">
           <TextBox
             title="Who am I?"
-            text="I’m some guy, raised on an eclectic diet of eighties music and dinosaur trivia in rural Canterbury. I also make websites and sometimes other stuff."
+            text="I’m some guy in Christchruch. Sometimes I make websites and other stuff."
           />
-          <TextBox title="What am I?" text="Looking for my next adventure" />
+          <TextBox title="What else?" text="80s music, dinosaur trivia and a bad sense of humour." />
         </div>
       </main>
     </>
