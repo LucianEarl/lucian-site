@@ -21,7 +21,7 @@ function Category(props) {
         <div
           className={
             catOpen
-              ? "py-24 px-12 h-128 md:my-12 bg-black text-[#96E072] md:px-96 text-xl transition-all ease-linear duration-300"
+              ? "py-24 px-12 md:my-12 bg-black text-[#96E072] md:px-96 text-xl transition-all ease-linear duration-300"
               : "h-0 px-12  md:px-96 text-xl transition-all ease-linear duration-300 truncate"
           }
         >
