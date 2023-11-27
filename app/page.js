@@ -1,7 +1,6 @@
 "use client";
 import Head from "next/head";
-// import Image from "next/image";
-// import TextBox from "./components/TextBox";
+import Link from "next/link";
 import Category from "./components/Category";
 import { useEffect } from "react";
 
@@ -64,24 +63,75 @@ export default function Home() {
             decoration={eyesVid}
           />
           <Category
-            name="Web Development"
-            title="My skills in dev work:"
-            text="I’m some guy in Christchruch. Sometimes I make websites and other stuff."
+            name="Skill set"
+            title="My skills are primarily in web dev work, but I pride myself on being a quick learner of anything"
+            text={
+              <ul>
+                <li>React - Native, NextJS</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+                <li>APIs</li>
+              </ul>
+            }
           />
           <Category
             name="Past work"
             title="Websites I've made before:"
-            text="I’m some guy in Christchruch. Sometimes I make websites and other stuff."
+            text={
+              <ul>
+                <li>
+                  <a href="https://www.carbonlinked.com/">Carbon Linked</a>
+                </li>
+                <li>
+                  <a href="https://www.clothnz.co.nz/">
+                    Cloth Commercial Textiles
+                  </a>
+                </li>
+              </ul>
+            }
           />
           <Category
             name="Qualifications"
             title="Formal qualifications I hold"
-            text="I’m some guy in Christchruch. Sometimes I make websites and other stuff."
+            text={
+              <>
+                NZ Diploma in Software Development
+                <br />
+                Whiteliffe College
+                <br />
+                2019 - 2021. <br />
+                <br />
+                Bachelor's in Biological Science (Endorsement in Ecology)
+                <br />
+                University of Canterbury
+                <br />
+                2015 - 2018.
+              </>
+            }
           />
           <Category
             name="Experience"
             title="My career so far"
-            text="I’m some guy in Christchruch. Sometimes I make websites and other stuff."
+            text={
+              <>
+                Daisy Lake
+                <br />
+                Together with a friend, we founded and ran the company Daisy
+                Lake for a few months while we were studying. During which, we
+                designed and developed a few websites for clients
+                <br />
+                2020 - 2021. <br />
+                <br />
+                Worldline NZ
+                <br />
+                Worked as Connex System Operator for Worldline NZ, providing
+                24/7 monitoring of the NonStop system.
+                <br />
+                2021-present
+              </>
+            }
+            // text="Together with a friend, we founded and ran the company Daisy Lake Ltd. for a few months. During which, we designed and developed a few websites for clients"
           />
         </div>
       </main>
