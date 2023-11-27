@@ -102,7 +102,7 @@ export default function Home() {
                 <br />
                 2019 - 2021. <br />
                 <br />
-                Bachelor's in Biological Science (Endorsement in Ecology)
+                Bachelor&apos;s in Biological Science (Endorsement in Ecology)
                 <br />
                 University of Canterbury
                 <br />
