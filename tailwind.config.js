@@ -14,8 +14,14 @@ module.exports = {
       backgroundSize: {
         "300%": "300%",
       },
+      transitionDuration: {
+        250: "250ms",
+      },
+      transitionProperty: {
+        height: "height",
+      },
       animation: {
-        shiny: "shine 8s linear infinite",
+        shiny: "shine 6s linear infinite",
       },
       keyframes: {
         shine: {
