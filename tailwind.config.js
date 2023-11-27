@@ -11,6 +11,9 @@ module.exports = {
         "l-pink": "#E982A2",
         "mid-pink": "#F4BECF",
       },
+      spacing: {
+        128: "32rem",
+      },
       backgroundSize: {
         "300%": "300%",
       },
